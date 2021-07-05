@@ -1,9 +1,4 @@
-/*
-  Theme Name: DevFolio
-  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
+
 
 /*======================================
 //--//-->   STYLES GENERALES
@@ -72,7 +67,7 @@ a:hover {
 .display-6 {
   font-size: 2rem;
   font-weight: 300;
-  line-height: 1.1;
+  line-height: 2.1;
 }
 
 .avatar {
@@ -90,7 +85,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #000000;
+  background-color: black ;
 }
 
 .overlay-mf {
@@ -326,7 +321,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #000000;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -481,26 +476,26 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: #000000;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: #000000;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: #000000;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: #000000;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: #000000;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -629,8 +624,8 @@ a:hover {
 }
 
 .intro .intro-subtitle {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.3rem;
+  font-weight: 280;
 }
 
 .intro .text-slider-items {
@@ -1138,7 +1133,7 @@ footer .credits a {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-size: 1rem;
+  font-size: 11rem;
   border-radius: .3rem;
   border: 1px solid transparent;
   transition: all 500ms ease;
