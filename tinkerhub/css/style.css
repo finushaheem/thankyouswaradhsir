@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
@@ -229,6 +228,7 @@ a:hover {
 /*--/ Title Left /--*/
 
 .title-box-2 {
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 3rem;
 }
 
@@ -739,6 +739,7 @@ a:hover {
 
 .about-me {
   color: black;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* .about-mf .box-shadow-full {
@@ -1129,7 +1130,7 @@ a:hover {
 
 .footer-paralax {
   padding: 3.5rem 0 1.5rem 0;
-  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Poppins', sans-serif;
 }
 
 .contact-mf {
@@ -1147,17 +1148,16 @@ footer {
 }
 
 footer .copyright {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: .3rem;
 }
 
 footer .credits {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 0;
 }
 
 footer .credits a {
-  font-family: 'Roboto', sans-serif;
   color: #fff;
 }
 
