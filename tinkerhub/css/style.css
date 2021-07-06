@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
 
 body {
+  font-family: 'Poppins', sans-serif;
   background-color: #f5f5f5;
   color: #4e4e4e;
   overflow: hidden;
@@ -26,10 +28,10 @@ body {
 }
 
 #img1{
-  width: 10%;
+  /* width: 15%; */
   position: relative;
-  margin-left: 45%;
-  margin-top: 350px;
+  margin-left: 44%;
+  margin-top: 330px;
 }
 
 #status {
@@ -50,12 +52,16 @@ body {
 
 .img2 {
   z-index: -99;
-  width: 10%;
+  width: 15%;
 }
 
 .gallery {
-  color: black
-}
+  color: black;
+  font-size: large;
+  position: relative;
+  margin-left: 50%;
+  margin-top: 20%;
+} 
 
 h1,
 h2,
@@ -186,14 +192,20 @@ a:hover {
 
 /*--/ Title A /--*/
 
+/*--/ Title A /--*/
+
 .title-box {
+  margin-top: 28px;
   margin-bottom: 4rem;
+  line-height: 1.4rem;
 }
 
 .title-a {
+  color: black;
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .subtitle-a {
@@ -201,10 +213,17 @@ a:hover {
 }
 
 .line-mf {
-  width: 40px;
+  width: 50px;
   height: 5px;
-  background-color: #0078ff;
-  margin: 0 auto;
+  background-color: black;
+  margin: 10px auto;
+}
+
+.line-mf2 {
+  width: 50px;
+  height: 5px;
+  background-color: black;
+  margin: 20px auto;
 }
 
 /*--/ Title Left /--*/
@@ -214,18 +233,22 @@ a:hover {
 }
 
 .title-left {
-  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  font-size: 3rem;
   position: relative;
+
 }
 
-.title-left:before {
+/* .title-left:before {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  margin: 10px auto;
+  background-color: black;
   width: 100px;
   bottom: -12px;
-}
+} */
 
 /*------/ Box /------*/
 
@@ -714,7 +737,11 @@ a:hover {
 //--//-->   ABOUT
 ======================================*/
 
-.about-mf .box-shadow-full {
+.about-me {
+  color: black;
+}
+
+/* .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -741,7 +768,7 @@ a:hover {
 .skill-mf .progress .progress-bar {
   height: .7rem;
   background-color: #0078ff;
-}
+} */
 
 /*======================================
 //--//-->   SERVICES
