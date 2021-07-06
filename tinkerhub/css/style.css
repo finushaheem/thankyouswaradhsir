@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /*======================================
 //--//-->   STYLES GENERALES
@@ -7,6 +7,54 @@
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
+  overflow: hidden;
+}
+
+
+/* preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#img1{
+  width: 10%;
+  position: relative;
+  margin-left: 45%;
+  margin-top: 350px;
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+
+.img2 {
+  z-index: -99;
+  width: 10%;
+}
+
+.gallery {
+  color: black
 }
 
 h1,
@@ -342,7 +390,7 @@ a:hover {
 
 /* Prelaoder */
 
-#preloader {
+/* #preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -389,7 +437,7 @@ a:hover {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
+} */
 
 /*======================================
 //--//-->   NAVBAR
@@ -1053,7 +1101,8 @@ a:hover {
 ======================================*/
 
 .footer-paralax {
-  padding: 4rem 0 0 0;
+  padding: 3.5rem 0 1.5rem 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .contact-mf {
@@ -1071,14 +1120,17 @@ footer {
 }
 
 footer .copyright {
+  font-family: 'Roboto', sans-serif;
   margin-bottom: .3rem;
 }
 
 footer .credits {
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 0;
 }
 
 footer .credits a {
+  font-family: 'Roboto', sans-serif;
   color: #fff;
 }
 
