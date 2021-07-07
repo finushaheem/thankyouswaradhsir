@@ -56,7 +56,7 @@ body {
 
 .gallery {
   color: black;
-  font-size: large;
+  font-size: medium;
   position: relative;
   margin-left: 50%;
   margin-top: 20%;
@@ -203,7 +203,7 @@ a:hover {
   color: black;
   font-size: 3rem;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-bottom: 15px;
 }
 
