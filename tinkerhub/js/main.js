@@ -10,34 +10,14 @@
   });
 
   //   Preloader
-  //   $(document).ready(function () {
-  //     if ($('#preloader').length) {
-  //       $('#preloader').delay("fast").fadeOut(2500, function () {
-  //         $(this).remove();
-  //       });
-  //     }
-  //   });
 
   $(window).on('load', function() { // makes sure the whole site is loaded 
     $('#status').fadeOut(); // will first fade out the loading animation 
     $("#img1").fadeOut();
-    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+    $('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website. 
     $('body').delay(350).css({'overflow':'visible'});
   })
-  // $(window).on('load', function() { // makes sure the whole site is loaded
-  // 	$('#blackscreen').fadeOut(); // will first fade out the loading animation
-  // 	$('#preloader').delay(700).fadeOut('fast'); // will fade out the white DIV that covers the website.
-  // 	$('body').delay("slow").css({'overflow':'visible'});
-  //   })
-
-  // $(window).load(function() {
-  // 	$(".loader").fadeOut("slow");})
-
-  // $(window).load(function() {
-  // 	// Run code
-  // 	 rotate = 0;
-  // 	  $(".preloader").fadeOut(250);
-  //   });
+  
 
   // Back to top button
   $(window).scroll(function () {
