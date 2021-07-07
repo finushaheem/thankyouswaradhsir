@@ -963,7 +963,16 @@ footer .credits {
 
 footer .credits a {
   color: #777777;
+
 }
+
+.credits:hover {
+  color: #fff;
+  transition: all 500ms ease;
+}
+.credits a:hover {
+  color: #fff;
+  transition: all 500ms ease;
 
 /*======================================
 //--//-->   CONtaCT FORM
