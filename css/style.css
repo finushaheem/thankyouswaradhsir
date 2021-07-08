@@ -1269,7 +1269,7 @@ footer .credits a {
     max-width: 45%;
     position: relative;
     margin-left: 7.2rem;
-    margin-top: 350px;
+    margin-top: 370px;
   }
 
   footer .credits {
@@ -1321,7 +1321,7 @@ footer .credits a {
   }
 
   footer .credits {
-    font-size: 12px;
+    font-size: 10.5px;
   }
 
   .back-to-top {
@@ -1343,7 +1343,8 @@ footer .credits a {
   }
 
   footer .credits {
-    font-size: 10px;
+    font-size: 9.2px;
+    margin-right: 6.5px;
   }
 
   .back-to-top {
