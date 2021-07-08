@@ -30,7 +30,7 @@ body {
   max-width: 14vw;
   position: relative;
   margin-left: 44%;
-  margin-top: 330px;
+  margin-top: 300px;
 }
 
 #status {
@@ -201,7 +201,7 @@ a:hover {
 
 .title-a {
   color: black;
-  font-size: calc(18px + 3vw);
+  font-size: calc(10px + 2.3vw);
   font-weight: bold;
   /* text-transform: uppercase; */
   margin-bottom: 15px;
@@ -211,18 +211,11 @@ a:hover {
   color: #4e4e4e;
 }
 
-.line-mf {
-  width: 50px;
-  height: 5px;
-  background-color: black;
-  margin: 10px auto;
-}
-
 .line-mf2 {
   width: 50px;
   height: 5px;
   background-color: black;
-  margin: 17px auto;
+  margin: 20px auto;
 }
 
 /*--/ Title Left /--*/
@@ -235,7 +228,7 @@ a:hover {
 .title-left {
   color: black;
   font-weight: bold;
-  font-size: calc(18px + 3vw);
+  font-size: calc(10px + 2.3vw);
   position: relative;
 }
 
@@ -604,7 +597,7 @@ a:hover {
 .navbar-b .navbar-brand {
   font-family: 'Poppins', sans-serif;
   color: #fff;
-  font-size: calc(15px + 1.3vw);
+  font-size: calc(11px + 1vw);
   font-weight: 600;
 }
 
@@ -1150,6 +1143,12 @@ footer .credits a {
   }
 }
 
+@media (min-width: 300) {
+  .line-mf2 {
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 1024px) {
   .bg-image {
     background-attachment: scroll;
@@ -1269,7 +1268,7 @@ footer .credits a {
     max-width: 45%;
     position: relative;
     margin-left: 7.2rem;
-    margin-top: 370px;
+    margin-top: 360px;
   }
 
   footer .credits {
@@ -1335,7 +1334,7 @@ footer .credits a {
     max-width: 45%;
     position: relative;
     margin-left: 6.3rem;
-    margin-top: 310px;
+    margin-top: 305px;
   }
 
   .title-left {
@@ -1352,3 +1351,8 @@ footer .credits a {
   }
 }
 
+@media (min-width: 300) {
+  .line-mf2 {
+    margin: 0 auto;
+  }
+}

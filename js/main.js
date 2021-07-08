@@ -14,7 +14,7 @@
   $(window).on('load', function() { // makes sure the whole site is loaded 
     $('#status').fadeOut(); // will first fade out the loading animation 
     $("#img1").fadeOut();
-    $('#preloader').delay("fast").fadeOut('slow'); // will fade out the white DIV that covers the website. 
+    $('#preloader').delay("slow").fadeOut('slow'); // will fade out the white DIV that covers the website. 
     $('body').delay(350).css({'overflow':'visible'});
   })
   
